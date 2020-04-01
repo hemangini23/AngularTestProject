@@ -1711,7 +1711,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
     /*! @angular/common/http */
-    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+    "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js"); //import { Map } from 'rxjs/operators';
+
 
     var ProjectsService =
     /*#__PURE__*/
@@ -1725,7 +1726,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(ProjectsService, [{
         key: "getAllProjects",
         value: function getAllProjects() {
-          return this.httpClient.get("/api/projects");
+          return this.httpClient.get("/api/projects"); // .pipe(map[(data) -> { return data; }]);
         }
       }]);
 
@@ -1857,7 +1858,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   /***/
   function _(module, exports, __webpack_require__) {
     module.exports = __webpack_require__(
-    /*! C:\Users\HEMANGINI\Angular\HelloProject\src\main.ts */
+    /*! C:\Users\HEMANGINI\Angular\My_Project\HelloProject\src\main.ts */
     "./src/main.ts");
     /***/
   }

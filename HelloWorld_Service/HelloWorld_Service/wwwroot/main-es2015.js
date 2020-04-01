@@ -863,12 +863,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+//import { Map } from 'rxjs/operators';
 class ProjectsService {
     constructor(httpClient) {
         this.httpClient = httpClient;
     }
     getAllProjects() {
         return this.httpClient.get("/api/projects");
+        // .pipe(map[(data) -> { return data; }]);
     }
 }
 ProjectsService.ɵfac = function ProjectsService_Factory(t) { return new (t || ProjectsService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
@@ -944,7 +946,7 @@ _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().boot
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\HEMANGINI\Angular\HelloProject\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\Users\HEMANGINI\Angular\My_Project\HelloProject\src\main.ts */"./src/main.ts");
 
 
 /***/ })
