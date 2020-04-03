@@ -7,14 +7,14 @@
   </button>
   <div class="collapse navbar-collapse" id="mynav">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/dashboard">Dashboard</a>
+      <li class="k-block">
+        <button kendoButton [look]="'bare'" [togglable]="true" routerLink="/dashboard">Dashboard</button>        
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about">About</a>
+      <li class="k-block">
+        <button kendoButton [look]="'bare'" [togglable]="true" routerLink="/about">about</button> 
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/projects">Projects</a>
+      <li class="k-block">
+        <button kendoButton [look]="'bare'" [togglable]="true" routerLink="/projects">Projects</button> 
       </li>
     </ul>
 
@@ -25,7 +25,9 @@
         </div>
         <input type="text" class="form-control" placeholder="Search"/>
       </div>
-      <button class="btn btn-warning my-2 my-sm-0" type="button">Search</button>
+      <div class="k-block">
+        <button kendoButton [look]="'bare'" [togglable]="true" >Search</button>
+      </div>
     </form>
   </div>
 </nav>

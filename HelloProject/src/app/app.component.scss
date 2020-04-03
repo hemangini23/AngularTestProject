@@ -1,0 +1,8 @@
+$button-text: #ff6a00;
+$bare: #4cff00;
+
+@import "~@progress/kendo-theme-default/dist/all";
+
+.k-button.k-bare, .k-button.k-bare-:hover {
+  color: $button-text
+}

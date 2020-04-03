@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Data } from '@angular/router';
 import { DashboardService } from '../../dashboard.service';
+import { items } from './items';
+
 
 @Component({
   selector: 'app-dashboard',
